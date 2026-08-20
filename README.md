@@ -7,7 +7,6 @@
 [![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi)](https://fastapi.tiangolo.com/)
 [![Python](https://img.shields.io/badge/Python-3.10-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
 [![Docker](https://img.shields.io/badge/Docker-Ready-2496ED?style=for-the-badge&logo=docker&logoColor=white)](https://www.docker.com/)
-[![MLflow](https://img.shields.io/badge/MLflow-Integrated-0194E2?style=for-the-badge&logo=mlflow&logoColor=white)](https://mlflow.org/)
 [![Render](https://img.shields.io/badge/Deployed%20on-Render-46E3B7?style=for-the-badge&logo=render&logoColor=white)](https://render.com/)
 [![CI/CD](https://img.shields.io/badge/CI%2FCD-GitHub%20Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)](https://github.com/features/actions)
 
@@ -26,12 +25,10 @@ A robust, containerized machine learning API that predicts **wine quality scores
 | Feature | Description |
 |---|---|
 | ⚡ **FastAPI Framework** | Modern, fast, asynchronous web framework for building APIs |
-| 📊 **MLflow Integration** | Standardized ML model management and experiment tracking |
 | ✅ **Pydantic Validation** | Automatic request validation for reliable inference |
 | 🐳 **Dockerized** | Fully containerized for easy deployment and scalability |
 | 🔄 **CI/CD Pipeline** | Automated build, push, and deployment via GitHub Actions |
 | 💓 **Health Checks** | Comprehensive `/health` endpoint for uptime monitoring |
-| 🔐 **Environment Variables** | Securely managed via `.env` files |
 | 📝 **Structured Logging** | Request and error logging for observability |
 
 ---
@@ -44,7 +41,6 @@ A robust, containerized machine learning API that predicts **wine quality scores
 |:---:|:---:|
 | **Web Framework** | FastAPI |
 | **ML Model** | Scikit-learn (Random Forest) |
-| **Experiment Tracking** | MLflow |
 | **Containerization** | Docker |
 | **Deployment** | Render |
 | **CI/CD** | GitHub Actions |
